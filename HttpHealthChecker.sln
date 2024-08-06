@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHealthChecker.CLI", "HttpHealthChecker.CLI\HttpHealthChecker.CLI.csproj", "{C0F956C0-D0C4-4575-A0F5-CBD6F24F4447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHealthChecker.Domain", "HttpHealthChecker.Domain\HttpHealthChecker.Domain.csproj", "{667F58EC-9C68-45BD-9853-DCEE24542171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHealthChecker.Domain.Tests", "HttpHealthChecker.Domain.Tests\HttpHealthChecker.Domain.Tests.csproj", "{AB1CA158-E11D-4145-9AF4-301354D795B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D8E04B2-F7CD-4208-8ED5-A646FAB7F061}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0F956C0-D0C4-4575-A0F5-CBD6F24F4447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F956C0-D0C4-4575-A0F5-CBD6F24F4447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F956C0-D0C4-4575-A0F5-CBD6F24F4447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F956C0-D0C4-4575-A0F5-CBD6F24F4447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667F58EC-9C68-45BD-9853-DCEE24542171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667F58EC-9C68-45BD-9853-DCEE24542171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667F58EC-9C68-45BD-9853-DCEE24542171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667F58EC-9C68-45BD-9853-DCEE24542171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1CA158-E11D-4145-9AF4-301354D795B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1CA158-E11D-4145-9AF4-301354D795B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1CA158-E11D-4145-9AF4-301354D795B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1CA158-E11D-4145-9AF4-301354D795B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
