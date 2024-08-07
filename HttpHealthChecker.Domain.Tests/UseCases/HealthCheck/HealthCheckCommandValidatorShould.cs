@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using FluentValidation;
 using HttpHealthChecker.Domain.UseCases.Healthcheck;
 
 namespace HttpHealthChecker.Domain.Tests.UseCases.HealthCheck;

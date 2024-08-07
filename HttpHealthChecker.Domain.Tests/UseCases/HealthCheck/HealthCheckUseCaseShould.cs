@@ -14,6 +14,6 @@ public class HealthCheckUseCaseShould
         var httpClient = new Mock<HttpClient>();
         _sendHttpRequestSetup = httpClient.Setup(client => client.SendAsync(It.IsAny<HttpRequestMessage>()));
 
-        _sut = new HealthCheckUseCase(httpClient.Object);
+        _sut = new HealthCheckUseCase(new HealthCheckCommandValidator(), httpClient.Object);
     }
 }

@@ -12,6 +12,7 @@ namespace HttpHealthChecker.Domain.UseCases.Healthcheck;
 /// The URL to which the health check HTTP requests will be sent. This should be a valid URL string.
 /// </param>
 /// <remarks>
-/// Implements the <see cref="IRequest"/> interface to signal that this is a request in the context of a CQRS pattern.
+/// Implements the <see cref="IRequest{T}"/> interface with <see cref="HealthCheckResult"/> as the type parameter 
+/// to signal that this is a request in the context of a CQRS pattern.
 /// </remarks>
-public record HealthCheckCommand(int IntervalBetweenRequests, string Url) : IRequest;
+public record HealthCheckCommand(int IntervalBetweenRequests, string Url) : IRequest<HealthCheckResult>;
